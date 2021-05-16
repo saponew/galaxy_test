@@ -34,7 +34,7 @@ start node 2:
 ### Step 4 
 - send transaction 
 
-![](http://localhost:8888/lab/tree/Blockchain/galaxy_test/successful_transaction.png)
+*see succesful transaction png
 
 ### Step 5 
 - explain how the rest of the team can get started on the blockchain
