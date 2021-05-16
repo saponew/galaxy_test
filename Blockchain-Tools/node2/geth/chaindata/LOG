@@ -1,0 +1,51 @@
+=============== May 15, 2021 (EDT) ===============
+23:43:36.856902 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:43:36.914392 db@open opening
+23:43:36.917068 version@stat F·[] S·0B[] Sc·[]
+23:43:36.935671 db@janitor F·2 G·0
+23:43:36.935758 db@open done T·21.312416ms
+23:43:36.943465 db@close closing
+23:43:36.944041 db@close done T·573.5µs
+=============== May 15, 2021 (EDT) ===============
+23:51:31.402330 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:51:31.408999 version@stat F·[] S·0B[] Sc·[]
+23:51:31.409078 db@open opening
+23:51:31.409352 journal@recovery F·1
+23:51:31.416537 journal@recovery recovering @1
+23:51:31.424848 memdb@flush created L0@2 N·625 S·50KiB "\x02d\xfc..\x19Ba,v430":"\xfe\x88\xcf..H\xef\xcc,v363"
+23:51:31.430054 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+23:51:31.463015 db@janitor F·3 G·0
+23:51:31.463084 db@open done T·53.989667ms
+23:51:31.522124 table@compaction range L-1 "a":"b"
+23:51:31.522144 table@compaction L0·1 -> L1·0 S·50KiB Q·631
+23:51:31.541390 table@build created L1@5 N·625 S·50KiB "\x02d\xfc..\x19Ba,v430":"\xfe\x88\xcf..H\xef\xcc,v363"
+23:51:31.541951 version@stat F·[0 1] S·50KiB[0B 50KiB] Sc·[0.00 0.00]
+23:51:31.576596 table@compaction committed F~ S~ Ke·0 D·0 T·53.995833ms
+23:51:31.737724 memdb@flush N·7 S·464B
+23:51:31.742323 memdb@flush created L0@7 N·7 S·611B "Dat..ion,v627":"unc..own,v632"
+23:51:31.742475 version@stat F·[1 1] S·51KiB[611B 50KiB] Sc·[0.25 0.00]
+23:51:31.760558 memdb@flush committed F·1 T·22.739709ms
+23:51:31.760806 journal@remove removed @3
+23:51:31.761064 table@compaction range L-1 "o":"p"
+23:51:31.761096 table@compaction L0·1 -> L1·1 S·51KiB Q·633
+23:51:31.788349 table@build created L1@8 N·630 S·51KiB "\x02d\xfc..\x19Ba,v430":"\xfe\x88\xcf..H\xef\xcc,v363"
+23:51:31.789258 version@stat F·[0 1] S·51KiB[0B 51KiB] Sc·[0.00 0.00]
+23:51:31.807435 table@compaction committed F-1 S-229B Ke·0 D·2 T·46.316958ms
+23:51:31.807814 table@remove removed @7
+23:51:31.808067 table@remove removed @5
+23:51:41.655303 memdb@flush N·540 S·24KiB
+23:51:41.674950 memdb@flush created L0@10 N·540 S·13KiB "Fas..mit,v903":"r\x00\x00..s]\x88,v897"
+23:51:41.674996 version@stat F·[1 1] S·64KiB[13KiB 51KiB] Sc·[0.25 0.00]
+23:51:41.691873 memdb@flush committed F·1 T·36.527875ms
+23:51:41.692290 journal@remove removed @6
+23:51:41.692313 table@compaction range L-1 "a":"b"
+23:51:41.692328 table@compaction L0·1 -> L1·1 S·64KiB Q·1173
+23:51:41.718005 table@build created L1@11 N·643 S·52KiB "\x02d\xfc..\x19Ba,v430":"\xfe\x88\xcf..H\xef\xcc,v363"
+23:51:41.718063 version@stat F·[0 1] S·52KiB[0B 52KiB] Sc·[0.00 0.00]
+23:51:41.735865 table@compaction committed F-1 S-12KiB Ke·0 D·527 T·43.516ms
+23:51:41.736154 table@remove removed @10
+23:51:41.736295 table@remove removed @8
+23:51:41.735930 table@compaction range L-1 "o":"p"
+=============== May 16, 2021 (EDT) ===============
+00:35:06.367217 db@close closing
+00:35:06.367741 db@close done T·522.042µs
